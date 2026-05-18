@@ -25,8 +25,6 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         marginBottom: 20,
     },
-
-    // Toggle
     toggleContainer: {
         flexDirection: 'row',
         alignItems: 'center',
@@ -36,8 +34,6 @@ const styles = StyleSheet.create({
         fontFamily: 'monospace',
         fontSize: 13,
     },
-
-    // Buttons
     specialButton: {
         backgroundColor: '#6c59d3',
         borderRadius: 4,
@@ -54,15 +50,11 @@ const styles = StyleSheet.create({
         marginTop: 20,
         alignItems: 'center',
     },
-
-    // Photo grid
     photoGrid: {
         flexDirection: 'row',
         flexWrap: 'wrap',
         gap: 16,
     },
-
-    // Photo card
     photo: {
         width: PHOTO_WIDTH,
         height: PHOTO_HEIGHT,
@@ -96,8 +88,6 @@ const styles = StyleSheet.create({
         fontFamily: 'monospace',
         fontSize: 10,
     },
-
-    // Skeleton
     skeleton: {
         width: PHOTO_WIDTH,
         height: PHOTO_HEIGHT,
