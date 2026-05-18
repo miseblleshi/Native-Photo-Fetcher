@@ -18,17 +18,18 @@ const styles = StyleSheet.create({
         fontWeight: '300',
         fontFamily: 'monospace',
         marginBottom: 16,
+        marginTop: 30
     },
     headerRow: {
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'center',
         marginBottom: 20,
+        marginLeft: 0
     },
     toggleContainer: {
         flexDirection: 'row',
         alignItems: 'center',
-        gap: 10,
     },
     toggleLabel: {
         fontFamily: 'monospace',
@@ -38,7 +39,8 @@ const styles = StyleSheet.create({
         backgroundColor: '#6c59d3',
         borderRadius: 4,
         paddingVertical: 8,
-        paddingHorizontal: 15,
+        paddingHorizontal: 9,
+        marginLeft: 5
     },
     specialButtonText: {
         color: 'white',
